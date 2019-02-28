@@ -74,7 +74,7 @@
 
           <packageName>test_betwnstr</packageName>
 
-         <testSuiteName>ALL</testSuiteName>
+         <!--<testSuiteName>ALL</testSuiteName>-->
 
         </configuration>
 
