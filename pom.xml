@@ -18,17 +18,14 @@
 
   <dependencies>
 
-    <dependency>
+    <!-- https://mvnrepository.com/artifact/junit/junit -->
+	<dependency>
+	    <groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+	    <version>4.12</version>
+	    <scope>test</scope>
+	</dependency>
 
-      <groupId>junit</groupId>
-
-      <artifactId>junit</artifactId>
-
-      <version>3.8.2</version>
-
-      <scope>test</scope>
-
-    </dependency>
 
   </dependencies>
 
@@ -48,17 +45,16 @@
 
         <dependencies>
 
-          <dependency>
+		 <!-- https://mvnrepository.com/artifact/com.oracle/ojdbc5 -->
+		<dependency>
+		    <groupId>com.oracle</groupId>
+		    <artifactId>ojdbc5</artifactId>
+		    <version>11.2.0.2.0</version>
+		    <scope>test</scope>
+		</dependency>
 
-            <groupId>com.oracle</groupId>
 
-            <artifactId>ojdbc6</artifactId>
-
-            <version>11.0.2.0.0</version>
-
-         </dependency>
-
-       </dependencies>
+        </dependencies>
 
  
 
@@ -70,17 +66,17 @@
 
           <username>Kiran_T</username>
 
-           <password>kiran1010</password>
+          <password>kiran1010</password>
 
-          <!--<packageName>test_betwnstr</packageName>-->
+          <packageName>test_betwn_strng</packageName>
 
-          <testSuiteName>ALL</testSuiteName>
+          <!--<testSuiteName>ALL</testSuiteName>-->
 
         </configuration>
 
         <executions>
 
-         <execution>
+          <execution>
 
             <id>run-plsql-test-packages</id>
 
@@ -107,3 +103,4 @@
   </build>
 
 </project>
+
